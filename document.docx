@@ -1,0 +1,5 @@
+Task:
+1. Created a general tokenizer for bangla text
+2. Created a word tokenizer
+3. Created a function to load stemmed word list
+4. Created a function that take input bangla text and give word list with frequency
