@@ -2,10 +2,11 @@ import re
 def word_tokenize( string):
     allWords = {}
     totalWordCount = 0;
-    sent = re.split('!|\?|\।+|\।\s', string)
+    sent = re.split('!|\?|\।+|\।\s|০|১|২|৩|৪|৫|৬|৭|৮|৯|=', string)
+    #sent = re.sub('[০১২৩৪৫৬৭৮৯]', '', sent2)
     for line in sent:
         line = line.strip()
-        words = re.split('\s|,|;|:|-', line)
+        words = re.split('\s|,|;|:|-|\.', line)
         for word in words:
             if len(word) > 0:
                 totalWordCount += 1;

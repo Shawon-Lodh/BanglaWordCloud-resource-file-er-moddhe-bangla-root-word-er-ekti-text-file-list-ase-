@@ -3,3 +3,11 @@ Task:
 2. Created a word tokenizer
 3. Created a function to load stemmed word list
 4. Created a function that take input bangla text and give word list with frequency
+5. Stemmed the input word list and count frequency according to the stemmer.
+
+Find text(image Object) region and check intersection between text(image Object)
+-- https://www.pyimagesearch.com/2016/02/01/opencv-center-of-contour/
+Quadtree Algorithm 
+-- http://www.fundza.com/algorithmic/quadtree/index.html
+-- http://www.fundza.com/algorithmic/quadtree/index.html
+-- http://devmag.org.za/2011/02/23/quadtrees-implementation/
